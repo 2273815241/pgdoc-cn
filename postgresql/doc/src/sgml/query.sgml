@@ -527,7 +527,7 @@ SELECT * FROM weather;
     这里<literal>*</literal>是<quote>所有列</quote>的缩写。
      <footnote>
       <para>
-       虽然<literal>SELECT *</literal>对于即席查询很有用，但我们普遍认为在生产代码中这是很糟糕的风格，因为给表增加一个列就改变了结果。
+       虽然<literal>SELECT *</literal>对于即时查询很有用，但我们普遍认为在生产代码中这是很糟糕的风格，因为给表增加一个列就改变了结果。
       </para>
      </footnote>
     因此相同的结果应该这样获得：
